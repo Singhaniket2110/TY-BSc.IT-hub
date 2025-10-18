@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Software Project Development (SPD) | TYBSc IT Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">TYBSc IT Hub</a>
+            <div class="d-flex ms-auto">
+                <a href="index.html" class="btn btn-outline-light me-2">Home</a>
+                <button id="themeToggle" class="btn btn-light">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-4 bg-light shadow-sm">
+        <h2 class="fw-bold">Software Project Development (SPD) - Semester 5</h2>
+        <a href="index.html" class="btn btn-outline-secondary mt-3">⬅ Back to Homepage</a>
+    </header>
+
+    <!-- Resources -->
+    <main class="container py-4">
+        <div class="accordion fade-in" id="spdResources">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#spdQues"
+                        aria-expanded="true">🎯 Important Questions</button>
+                </h2>
+                <div id="spdQues" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>🔗 <a href="https://muquestionpapers.com/science/bsc-information-technology/semester-5"
+                                    target="_blank">SPD Question Bank (MU)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#spdNotes"
+                        aria-expanded="true">📄 Notes</button>
+                </h2>
+                <div id="spdNotes" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>📄 <a href="https://e-next.in/notes/mu/bsc-it/2016/sem5" target="_blank">SPD Notes
+                                    (e-next.in)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#spdPapers"
+                        aria-expanded="true">📚 Previous Papers</button>
+                </h2>
+                <div id="spdPapers" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>📚 <a href="https://muquestionpapers.com/science/bsc-information-technology/semester-5"
+                                    target="_blank">SPD Previous Papers (MU)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Tutorials -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#spdVideos"
+                        aria-expanded="false">
+                        🎥 Video Tutorials
+                    </button>
+                </h2>
+                <div id="spdVideos" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>🎥 <a href="https://www.youtube.com/watch?v=1bHH7fGqEJ8" target="_blank">Software
+                                    Development Life Cycle</a></li>
+                            <li>🎥 <a href="https://www.youtube.com/watch?v=0ckCeLtNQMQ" target="_blank">Agile
+                                    Methodology Explained</a></li>
+                            <li>🎥 <a href="https://www.youtube.com/watch?v=quKvGj9Q0aE" target="_blank">Project
+                                    Management Basics</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!--Back to top button -->
+
+    <button id="backToTop" class="btn btn-primary shadow d-flex">⬆</button>
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <p class="mb-0">Disclaimer: This site provides links to external study resources.<br>
+            Created by <strong>Aniket Singh</strong> © <span id="year"></span></p>
+    </footer>
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
