@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TYBSc IT Hub - Academic Resources</title>
+    <meta name="description"
+        content="TYBSc IT Hub - Organized resources for Sem 5 & Sem 6 students: notes, previous papers, and important questions.">
+    <meta name="keywords" content="TYBSc IT, AI, SPD, AWD, IoT, AJT , STQA , ITIM , IS , GIS , BIDA , MU Question Papers, Notes, Previous Papers">
+    <meta name="author" content="Aniket Singh">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">TYBSc IT Hub</a>
+            <div class="d-flex ms-auto">
+                <a href="contact.html" class="btn btn-outline-light me-2">Contact Us</a>
+                <button id="themeToggle" class="btn btn-light">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-5 bg-light shadow-sm mb-4">
+        <h1 class="fw-bold">Academic Resources for TYBSc IT</h1>
+        <p class="lead">Notes, previous papers & important questions for TY-BSc.IT</p>
+
+        <!-- Search Bar -->
+        <div class="d-flex justify-content-center mt-4">
+            <div class="search-container w-75">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search for a subject...">
+                
+                <!-- Advanced Search Filters -->
+                <div class="search-filters mt-3">
+                    <div class="row g-2">
+                        <div class="col-md-4">
+                            <select id="semesterFilter" class="form-select">
+                                <option value="">All Semesters</option>
+                                <option value="sem5">Semester 5</option>
+                                <option value="sem6">Semester 6</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <select id="subjectFilter" class="form-select">
+                                <option value="">All Subjects</option>
+                                <option value="ai">AI</option>
+                                <option value="spd">SPD</option>
+                                <option value="awd">AWD</option>
+                                <option value="iot">IoT</option>
+                                <option value="ajt">AJT</option>
+                                <option value="stqa">STQA</option>
+                                <option value="is">IS</option>
+                                <option value="bida">BIDA</option>
+                                <option value="gis">GIS</option>
+                                <option value="itim">ITIM</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <select id="resourceFilter" class="form-select">
+                                <option value="">All Resources</option>
+                                <option value="notes">Notes</option>
+                                <option value="papers">Previous Papers</option>
+                                <option value="questions">Important Questions</option>
+                                <option value="videos">Video Tutorials</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-2">
+                        <button id="clearFilters" class="btn btn-outline-secondary btn-sm">Clear Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Semesters -->
+    <main class="container py-5">
+        <div class="row g-4">
+
+            <!-- Syllabus Section -->
+            <section class="text-center my-5">
+                <h2 class="fw-bold mb-3">View Complete Syllabus</h2>
+                <p>Access the detailed syllabus for Semesters V and VI below:</p>
+                <a href="https://mu.ac.in/wp-content/uploads/2024/07/6.6-R-T.Y.B.Sc-I.T-Sem-V-VI.pdf" target="_blank"
+                    class="btn btn-primary btn-lg shadow-sm">
+                    View Syllabus (PDF)
+                </a>
+            </section>
+
+            <!-- Sem 5 -->
+            <div class="col-md-6 fade-in sem-card" data-semester="sem5">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Semester 5</h3>
+                        <p class="card-text">Click below to explore subject resources</p>
+                        <div class="row g-3 mt-3">
+                            <!-- Subject Cards -->
+                            <div class="col-6 subject-card fade-in"><a href="subject-ai.html"
+                                    class="btn btn-outline-primary w-100">AI</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-spd.html"
+                                    class="btn btn-outline-primary w-100">SPD</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-awd.html"
+                                    class="btn btn-outline-primary w-100">AWD</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-iot.html"
+                                    class="btn btn-outline-primary w-100">IoT</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-ajt.html"
+                                    class="btn btn-outline-primary w-100">AJT</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sem 6 -->
+            <div class="col-md-6 fade-in sem-card" data-semester="sem6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Semester 6</h3>
+                        <p class="card-text">Click below to explore subject resources</p>
+                        <div class="row g-3 mt-3">
+                            <!-- Subject Cards -->
+                            <div class="col-6 subject-card fade-in"><a href="subject-stqa.html" class="btn btn-outline-primary w-100">STQA</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-is.html" class="btn btn-outline-primary w-100">IS</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-bida.html" class="btn btn-outline-primary w-100">BIDA</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-gis.html" class="btn btn-outline-primary w-100">GIS</a></div>
+                            <div class="col-6 subject-card fade-in"><a href="subject-itim.html" class="btn btn-outline-primary w-100">ITIM</a></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary shadow d-flex">⬆</button>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <p class="mb-0">Disclaimer: This site provides links to external study resources.<br>
+            Created by <strong>Aniket Singh</strong> © <span id="year"></span></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
