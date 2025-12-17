@@ -56,7 +56,7 @@ Each page includes:
 
 ### 🗂 Syllabus Access
 
-* 📄 [Official Mumbai University Syllabus PDF](https://mu.ac.in/wp-content/uploads/2024/07/6.6-R-T.Y.B.Sc-I.T-Sem-V-VI.pdf)
+* 📄 [Official Mumbai University Syllabus PDF]([https://mu.ac.in/wp-content/uploads/2024/07/6.6-R-T.Y.B.Sc-I.T-Sem-V-VI.pdf](https://www.vidyalankar.org/bscit/assets/docs/TYBSc-IT-Sem-VI-Syllabus.pdf))
 
 ### 🎨 UI/UX
 
